@@ -5,23 +5,23 @@
 const PROFILE = {
   name: "Siddharth Ravikumar",
   initials: "SR",
-  title: "AI Product Specialist & Full-Stack AI Architect",
-  tagline: "Building intelligent systems that think, speak, and see.",
+  title: "Senior AI Solutions Architect",
+  tagline: "Building production AI systems that think, speak, and see.",
   typingTexts: [
+    "Multi-Agent Orchestration & Agentic AI",
+    "Enterprise RAG & Knowledge Systems",
     "Real-Time ASR & Speech Intelligence",
-    "Agentic RAG & Multi-Agent Systems",
-    "Micro SaaS Builder & AI Entrepreneur",
-    "Computer Vision & Edge AI",
+    "Quantitative AI & Trading Intelligence",
     "14+ Years Shipping Production AI"
   ],
-  summary: `AI Product Specialist and Full-Stack AI Architect with <strong>14+ years</strong> of experience delivering AI-driven solutions across NLP, Generative AI, Speech Intelligence, and Geospatial Analysis. I own AI roadmaps, lead cross-functional teams, and manage end-to-end model lifecycles from concept to production — building scalable systems that deliver measurable business impact.`,
+  summary: `AI Solutions Architect with <strong>14+ years</strong> building AI systems across Agentic AI, NLP, Speech Intelligence, Computer Vision, and Quantitative Intelligence. I've taken LLM-powered platforms from early prototypes through to production — dealing with failure recovery, latency budgets, cost control, observability, and keeping things reliable once real users depend on them. Most recently focused on multi-agent orchestration, enterprise RAG, and speech AI for defense applications.`,
   about: [
-    `I specialize in architecting production-grade AI systems at the intersection of research and product. From real-time multilingual ASR pipelines to agentic RAG frameworks for structural engineering, I build systems that solve complex domain problems at scale.`,
-    `Beyond my professional work, I'm an active AI entrepreneur — building and launching Micro SaaS products that bring cutting-edge AI to niche markets. My current ventures include AI-powered accident forensics, on-device visual search, and culturally-rooted language models.`,
-    `I believe in bridging the gap between AI research and real-world impact — whether that's deploying world foundation models in defense settings or building a tiny Tamil LLM that preserves classical literature.`
+    `I specialize in architecting production-grade AI systems — the kind where you have to deal with the parts that don't show up in demos: failure recovery, latency budgets, cost control, and observability. From real-time multilingual ASR pipelines for defense to agentic RAG frameworks for structural engineering, I build systems that solve complex domain problems at scale.`,
+    `Beyond my professional work, I'm building and launching AI products that bring cutting-edge intelligence to niche markets. My current ventures include an agentic swing trading intelligence platform (live at app.tradesphere.space), AI-powered accident forensics, on-device visual search, and culturally-rooted language models.`,
+    `I believe in bridging the gap between AI research and real-world impact — whether that's deploying world foundation models in defense settings, building enterprise RAG that handles complex engineering documents, or keeping multi-agent systems reliable when external APIs rate-limit and timeout.`
   ],
   email: "siddharth.ravikumar4521@gmail.com",
-  phone: "+971503658915",
+  phone: "+971566731297",
   linkedin: "https://www.linkedin.com/in/siddharth-ravikumar-17262a50/",
   github: "https://github.com/SiddharthRavikumar1989",
   location: "Abu Dhabi, UAE",
@@ -39,56 +39,56 @@ const SKILLS = [
   {
     icon: "🧠",
     title: "AI / ML Frameworks",
-    tags: ["PyTorch", "TensorFlow", "scikit-learn", "Hugging Face", "PyTorch Lightning", "Unsloth"]
+    tags: ["PyTorch", "TensorFlow", "scikit-learn", "Hugging Face Transformers", "Whisper", "NVIDIA NeMo"]
+  },
+  {
+    icon: "🤖",
+    title: "Agentic AI",
+    tags: ["Multi-Agent Orchestration", "LangGraph", "LangChain", "Tool-Calling Agents", "Fallback & Self-Correction Loops", "Memory-Augmented Agents", "Agent Tracing & Observability"]
+  },
+  {
+    icon: "📚",
+    title: "RAG & Knowledge Systems",
+    tags: ["Agentic RAG", "Multimodal RAG", "Hybrid Retrieval", "Vector DBs (Milvus, Qdrant, Chroma)", "Reranking", "Multi-Hop Retrieval", "Knowledge Graph RAG"]
   },
   {
     icon: "💬",
-    title: "LLMs & Generative AI",
-    tags: ["Fine-tuning (LoRA/QLoRA)", "Agentic RAG", "Multi-Agent Systems", "LangGraph", "LangChain", "Prompt Engineering"]
+    title: "LLM Engineering",
+    tags: ["LLM Fine-Tuning", "PEFT / LoRA / QLoRA", "Open-source LLMs", "Prompt Optimization", "LLM Evaluation (RAGAS, DeepEval)", "Token Budget Management"]
   },
   {
     icon: "🎤",
     title: "Speech & NLP",
-    tags: ["Whisper ASR", "Speaker Diarization", "Real-time Streaming", "Arabic NLP", "Persian NLP", "Tamil NLP"]
+    tags: ["Whisper ASR", "NVIDIA Conformer", "Speaker Diarization", "Real-time Streaming", "Arabic NLP", "Persian NLP", "Tamil NLP"]
   },
   {
     icon: "👁️",
     title: "Computer Vision",
-    tags: ["Object Detection", "OCR Pipelines", "Image Search", "Scene Analysis", "TF Lite", "Edge AI"]
+    tags: ["Object Detection", "OCR Pipelines", "ColPali Visual Retrieval", "Vision Language Models", "Image Search", "TF Lite", "Edge AI"]
   },
   {
     icon: "⚙️",
     title: "Backend & Architecture",
-    tags: ["Python", "FastAPI", "Django", "WebSockets", "Microservices", "Event-Driven", "API Design"]
+    tags: ["Python", "Java", "SQL", "FastAPI", "Microservices", "Event-Driven Architecture", "REST APIs", "Distributed Systems"]
   },
   {
     icon: "☁️",
-    title: "Cloud & MLOps",
-    tags: ["AWS", "GCP", "Docker", "Kubernetes", "MLflow", "Airflow", "CI/CD", "Spark"]
-  },
-  {
-    icon: "🗄️",
-    title: "Data & Databases",
-    tags: ["PostgreSQL", "Vector DBs", "Elasticsearch", "DuckDB", "Apache Kafka", "PySpark", "Pandas"]
-  },
-  {
-    icon: "🛠️",
-    title: "Tools & Platforms",
-    tags: ["Gradio", "Streamlit", "Git", "Linux", "Jupyter", "Android SDK"]
+    title: "Cloud, MLOps & Data",
+    tags: ["AWS", "GCP", "Docker", "Kubernetes", "MLflow", "Airflow", "CI/CD", "Apache Spark", "Kafka", "DuckDB", "Dask", "Elasticsearch"]
   }
 ];
 
 const EXPERIENCE = [
   {
-    role: "AI Product Specialist",
+    role: "Solutions Architect",
     company: "SAAL AI",
     period: "Jan 2025 – Present",
     location: "Abu Dhabi",
     highlights: [
-      "Architecting Agentic RAG frameworks for complex structural engineering document understanding",
-      "Building real-time multilingual ASR systems for Arabic & Persian with military-grade accuracy",
-      "Designing multi-agent trading intelligence platforms with LangGraph orchestration",
-      "Engineering world foundation models for defense autonomy and edge deployment"
+      "Architected an agentic document intelligence platform handling PDFs, PowerPoints, engineering drawings, and technical diagrams with multimodal RAG — improved grounded-answer rates from 62% to 84%",
+      "Built production speech AI pipelines for Arabic & Persian transcription with military-grade noise reduction — achieved >25% WER improvement on jargon-heavy segments through fine-tuned Whisper & NVIDIA Conformer models",
+      "Designed multi-agent trading intelligence platform with LangGraph orchestration, validation loops reducing manual review from 30% to under 10%, and end-to-end latency under 3 seconds",
+      "Ran RAGAS evaluations on every deployment, tracking p95 retrieval latency against 800ms targets and cost-per-query across providers for intelligent routing"
     ],
     projects: ["Agentic RAG", "Speech Intelligence", "Trading AI", "Defense AI"]
   },
@@ -98,10 +98,10 @@ const EXPERIENCE = [
     period: "Jun 2023 – Jan 2025",
     location: "Riyadh, Saudi Arabia",
     highlights: [
-      "Built geospatial violation hotspot detection using DBSCAN/HDBSCAN on city-scale GIS data",
-      "Designed spatial-temporal forecasting models for proactive urban enforcement planning",
-      "Developed LLM-powered municipal compliance chatbot integrated with government backends",
-      "Automated policy checklist generation and compliance validation across regulatory domains"
+      "Designed geospatial intelligence platform for urban violation hotspot prediction using DBSCAN/HDBSCAN on GPS-tagged enforcement data — became the standard planning tool across districts",
+      "Built spatial-temporal forecasting models combining time-series analysis with spatial features, with weekly accuracy evaluations against actual violation density",
+      "Implemented LLM-powered municipal compliance platform with RAG retrieval, tracking hallucination rates across policy domains and data freshness monitoring for regulatory updates",
+      "Automated compliance checklist generation, cutting manual review time by ~35% over a three-month operational period"
     ],
     projects: ["Geospatial AI", "Policy Intelligence", "Municipal Chatbot"]
   },
@@ -111,9 +111,9 @@ const EXPERIENCE = [
     period: "Sep 2022 – Jun 2023",
     location: "Remote",
     highlights: [
-      "Built LLM-powered legal clause extraction achieving ~95% validation reliability",
-      "Fine-tuned domain-adapted legal LLMs — reduced manual review effort by 40%",
-      "Designed content-aware lawyer recommendation engine using semantic similarity search"
+      "Built LLM-powered clause extraction with automatic routing of low-confidence extractions to human review — hit ~95% clause validation reliability with weekly regression checks",
+      "Fine-tuned domain-specific legal LLMs with instruction tuning and contrastive learning — reduced manual review effort by ~40% validated through side-by-side comparison",
+      "Designed legal expert recommendation engine with semantic similarity, embeddings, and metadata ranking — iterated scoring weights based on actual lawyer acceptance rates"
     ],
     projects: ["Legal AI", "Contract Analytics", "Recommendation Engine"]
   },
@@ -123,9 +123,9 @@ const EXPERIENCE = [
     period: "Nov 2018 – Sep 2022",
     location: "Chennai, India",
     highlights: [
-      "Deployed network anomaly detection and churn prediction using ensemble learning & LSTMs",
-      "Built large-scale NLP pipelines for conversation analysis with contextual embeddings",
-      "Implemented multi-level sentiment analysis and intent classification systems"
+      "Built network anomaly detection and churn prediction using ensemble methods and RNNs/LSTMs against live telemetry — tracked alert precision and false-positive rates weekly",
+      "Developed NLP pipelines using BM25 and contextual embeddings to extract insights from millions of customer conversations with pipeline health monitoring",
+      "Implemented sentiment analysis, intent classification, and aspect-based sentiment models — validated accuracy on monthly holdout sets and tracked correlation with NPS scores"
     ],
     projects: ["Anomaly Detection", "NLP Pipelines", "Customer Analytics"]
   },
@@ -135,9 +135,9 @@ const EXPERIENCE = [
     period: "Jun 2017 – Dec 2018",
     location: "India",
     highlights: [
-      "Designed edge analytics infrastructure for real-time IoT datacenter monitoring",
-      "Built distributed data pipeline on AWS (Spark Streaming, Kinesis, DynamoDB, Elasticsearch)",
-      "Applied Bayesian inference and deep learning for sequence-based anomaly detection"
+      "Built edge AI analytics for real-time IoT datacenter monitoring with sub-200ms latency constraints for alerting",
+      "Developed streaming data pipelines on AWS (Kinesis, Spark Streaming, DynamoDB, Elasticsearch) handling burst traffic with backpressure monitoring",
+      "Developed anomaly detection models using Bayesian inference and RNN/LSTM architectures with precision/recall tracking and automatic retraining triggers"
     ],
     projects: ["IoT Analytics", "Edge Computing", "AWS Pipelines"]
   }
@@ -148,88 +148,107 @@ const OFFICIAL_PROJECTS = [
   {
     category: "client",
     icon: "🏗️",
-    title: "Agentic RAG for Structural Engineering",
+    title: "Agentic Multimodal Enterprise RAG Platform",
     company: "SAAL AI",
-    description: "Multimodal RAG pipeline evolved into an Agentic framework with task-aware agents, dynamic retrieval, and reasoning loops for complex engineering document understanding.",
-    tech: ["LangGraph", "Vector DB", "Airflow", "OCR", "FastAPI"],
-    impact: "Company-wide standard for production RAG systems"
+    description: "Document intelligence platform handling PDFs, PowerPoints, engineering drawings, and scientific documents with ColPali visual retrieval, OCR, Vision Language Models, and multimodal embeddings. Structured logging across retrieval decisions, reranking, and LLM generation for full traceability.",
+    tech: ["ColPali", "Vision LLMs", "LangGraph", "Vector DB", "RAGAS", "FastAPI"],
+    impact: "Grounded-answer rates improved from 62% to 84%"
   },
   {
     category: "client",
     icon: "🎙️",
-    title: "Multilingual ASR & Speech Intelligence",
+    title: "Speech Intelligence & Multilingual ASR",
     company: "SAAL AI",
-    description: "End-to-end speech intelligence system with audio enhancement, ASR, and speaker diarization for Arabic and Persian — fine-tuned with military jargon-specific voice samples.",
-    tech: ["Whisper", "NVIDIA Conformer", "WebSockets", "Docker", "Python"],
-    impact: "Real-time transcription in contested environments"
+    description: "Production speech AI for Arabic and Persian with multi-tiered noise reduction for military-grade audio. Speech separation, VAD, diarization, and fine-tuned Whisper/NVIDIA Conformer models with stratified evaluation by noise level, dialect, and vocabulary type.",
+    tech: ["Whisper", "NVIDIA Conformer", "VAD", "Diarization", "Docker", "Python"],
+    impact: ">25% WER improvement on defense-domain jargon"
   },
   {
     category: "product",
     icon: "📈",
-    title: "Multi-Agent Trading Intelligence Platform",
+    title: "Multi-Agent Quantitative Research Platform",
     company: "SAAL AI",
-    description: "Orchestrated News, Fundamental, Technical, and Algo-Trading agents with self-correction loops, Text-to-SQL interface, and Modern Portfolio Theory integration.",
+    description: "Agentic research platform coordinating news, fundamentals, technical signals, and algo-trading agents via LangGraph. Validation loops, fallback chains with TTL-based caching, Text-to-SQL for natural language queries, and Modern Portfolio Theory integration.",
     tech: ["LangGraph", "Multi-Agent", "Text-to-SQL", "Yahoo Finance", "FastAPI"],
-    impact: "Unified investment insights with validation loops"
+    impact: "Manual review reduced from 30% to under 10%"
   },
   {
     category: "client",
     icon: "🛡️",
     title: "Defense AI — World Foundation Models",
     company: "SAAL AI",
-    description: "World foundation models for defense autonomy — multimodal training across challenging physical conditions with noise-resilient sensing and symbolic reasoning.",
+    description: "World foundation models for defense autonomy — multimodal training across challenging physical conditions with reliability testing under sensor degradation, targeting detection consistency within strict latency constraints.",
     tech: ["PyTorch", "Multimodal AI", "Edge Deployment", "Symbolic AI"],
     impact: "Adaptive action execution in extreme conditions"
   },
   {
     category: "client",
     icon: "🗺️",
-    title: "Urban Violation Hotspot Detection",
+    title: "Urban Violation Hotspot Detection & Forecasting",
     company: "Ministry of Rural Development",
-    description: "City-scale geospatial analytics using density-based clustering on GPS-tagged enforcement data, with spatial-temporal forecasting for proactive urban planning.",
+    description: "Geospatial intelligence platform with large-scale pipelines using GeoPandas, Shapely, and PostGIS. Automated hotspot detection with DBSCAN/HDBSCAN on GPS-tagged enforcement data and spatial-temporal forecasting for proactive planning.",
     tech: ["GeoPandas", "DBSCAN", "PostGIS", "Time-Series", "Python"],
-    impact: "Proactive enforcement with predictive hotspot mapping"
+    impact: "Standard planning tool adopted across districts"
   },
   {
     category: "product",
     icon: "📋",
     title: "Municipal Compliance & Policy Intelligence",
     company: "Ministry of Rural Development",
-    description: "LLM-powered multi-channel chatbot for automated compliance checks, policy guidance, and regulatory content management across city development authorities.",
-    tech: ["LangChain", "Embeddings", "Topic Modeling", "FastAPI"],
-    impact: "Automated policy validation reducing manual review"
+    description: "Enterprise knowledge platform using LLMs and RAG for regulatory guidance and compliance validation. Multichannel conversational AI with hallucination rate tracking across policy domains and data freshness monitoring for regulatory updates.",
+    tech: ["LangChain", "RAG", "Embeddings", "Topic Modeling", "FastAPI"],
+    impact: "~35% reduction in manual compliance review time"
   },
   {
     category: "client",
     icon: "⚖️",
     title: "Legal Intelligence & Contract Analytics",
     company: "Onit",
-    description: "LLM-powered clause extraction, generation, and semantic validation with a content-aware lawyer recommendation engine using embeddings and metadata ranking.",
-    tech: ["LLM Fine-tuning", "Semantic Search", "NLP", "Python"],
+    description: "LLM-powered clause extraction with automatic low-confidence routing to human review. Domain-specific legal LLMs fine-tuned with instruction tuning and contrastive learning, plus a content-aware lawyer recommendation engine.",
+    tech: ["LLM Fine-tuning", "Contrastive Learning", "Semantic Search", "NLP"],
     impact: "~95% clause validation · 40% less manual review"
   },
   {
     category: "rnd",
     icon: "🔬",
-    title: "Liquid Foundation Models vs LLMs",
+    title: "Liquid Foundation Models vs LLMs Evaluation",
     company: "R&D",
-    description: "Comparative evaluation of liquid neural networks vs transformer-based LLMs — analyzing reasoning stability, data efficiency, latency, and GPU utilization in streaming environments.",
+    description: "Comparative analysis of liquid neural networks vs. transformers, focused on production-relevant metrics: tokens/sec, memory per concurrent request, and performance degradation under load in low-data and streaming scenarios.",
     tech: ["PyTorch", "Benchmarking", "GPU Profiling"],
     impact: "Informed architecture decisions for streaming AI"
   },
   {
     category: "rnd",
     icon: "⚡",
-    title: "GPU Architecture Benchmarking",
+    title: "GPU Architecture & Memory Benchmarking",
     company: "R&D",
-    description: "Evaluated DGX Spark vs NVIDIA A100/H100 — benchmarking VRAM, memory bandwidth, throughput, and cost-performance across LLM inference, fine-tuning, and multimodal workloads.",
+    description: "Benchmarked DGX Spark vs A100/H100 setups on VRAM utilization, bandwidth, throughput, and cost across inference, fine-tuning, and multimodal workloads. Results informed infrastructure decisions for production model serving.",
     tech: ["NVIDIA DGX", "A100", "H100", "CUDA", "Profiling"],
-    impact: "Optimized GPU procurement strategy"
+    impact: "Optimized GPU procurement for production serving"
   }
 ];
 
 // PERSONAL PROJECTS
 const PERSONAL_PROJECTS = [
+  {
+    category: "saas",
+    icon: "📊",
+    title: "Agentic Swing Trading Intelligence",
+    status: "live",
+    statusLabel: "Live Product",
+    description: "Multi-agent quantitative research platform for systematic swing trading insights. Coordinated technical, fundamental, news, risk, and trade validation agents via LangGraph with agent-level tracing for tool calls, token costs, and latency.",
+    features: [
+      "Multi-agent orchestration via LangGraph",
+      "Quantitative pipelines with feedback loops",
+      "Data ingestion, strategy evaluation & backtesting",
+      "Signal success rate & end-to-end latency tracking",
+      "Containerized deployment with health checks",
+      "Response time & failure rate monitoring"
+    ],
+    tech: ["LangGraph", "Multi-Agent", "Docker", "FastAPI", "Yahoo Finance"],
+    url: "https://app.tradesphere.space/",
+    featured: true
+  },
   {
     category: "saas",
     icon: "🔍",
@@ -247,7 +266,7 @@ const PERSONAL_PROJECTS = [
     ],
     tech: ["Custom CV Models", "PyTorch", "FastAPI", "Gradio"],
     url: "https://app.tracescene.space",
-    featured: true
+    featured: false
   },
   {
     category: "saas",
@@ -255,12 +274,12 @@ const PERSONAL_PROJECTS = [
     title: "Aura Search",
     status: "progress",
     statusLabel: "In Development",
-    description: "AI-powered visual intelligence platform combining multi-object detection, OCR-based text extraction, and reasoning-driven image search. Search and retrieve images by actual visual content and contextual understanding.",
+    description: "Edge AI mobile application for visual search and image understanding. Computer vision pipelines with object detection, embeddings, and visual reasoning, optimized with TensorFlow Lite / PyTorch Mobile for 60ms latency on target hardware.",
     features: [
       "Multi-object detection & classification",
       "OCR-based text extraction from images",
       "Reasoning-driven visual search",
-      "Mobile & cloud deployment"
+      "Quantized models for edge deployment"
     ],
     tech: ["TensorFlow Lite", "PyTorch Mobile", "Android SDK", "CLIP"],
     featured: false
